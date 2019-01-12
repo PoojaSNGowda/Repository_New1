@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70793" started-at="2019-01-06T07:47:21Z" finished-at="2019-01-06T07:48:31Z">
+    <groups>
+      <group name="test">
+        <method signature="MavenjenkinsProg.Test2()[pri:3, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="Test2" class="com.mavenjenkins.MavenjenkinsProg"/>
+        <method signature="MavenjenkinsProg.Test3()[pri:4, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="Test3" class="com.mavenjenkins.MavenjenkinsProg"/>
+      </group> <!-- test -->
+      <group name="logo">
+        <method signature="MavenjenkinsProg.GoogleLogoTest()[pri:3, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="GoogleLogoTest" class="com.mavenjenkins.MavenjenkinsProg"/>
+      </group> <!-- logo -->
+      <group name="title">
+        <method signature="MavenjenkinsProg.GoogletitleTest()[pri:1, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="GoogletitleTest" class="com.mavenjenkins.MavenjenkinsProg"/>
+      </group> <!-- title -->
+    </groups>
+    <test name="Test" duration-ms="70793" started-at="2019-01-06T07:47:21Z" finished-at="2019-01-06T07:48:31Z">
+      <class name="com.mavenjenkins.MavenjenkinsProg">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="SetUp" is-config="true" duration-ms="29608" started-at="2019-01-06T07:47:21Z" finished-at="2019-01-06T07:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="GoogletitleTest()[pri:1, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="GoogletitleTest" duration-ms="106" started-at="2019-01-06T07:47:50Z" finished-at="2019-01-06T07:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogletitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="tearDown" is-config="true" duration-ms="1222" started-at="2019-01-06T07:47:50Z" finished-at="2019-01-06T07:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="SetUp" is-config="true" duration-ms="16112" started-at="2019-01-06T07:47:52Z" finished-at="2019-01-06T07:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="GoogleLogoTest()[pri:3, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="GoogleLogoTest" duration-ms="1118" started-at="2019-01-06T07:48:08Z" finished-at="2019-01-06T07:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="tearDown" is-config="true" duration-ms="682" started-at="2019-01-06T07:48:09Z" finished-at="2019-01-06T07:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="SetUp" is-config="true" duration-ms="7751" started-at="2019-01-06T07:48:10Z" finished-at="2019-01-06T07:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Test2()[pri:3, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="Test2" duration-ms="0" started-at="2019-01-06T07:48:17Z" finished-at="2019-01-06T07:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="tearDown" is-config="true" duration-ms="745" started-at="2019-01-06T07:48:17Z" finished-at="2019-01-06T07:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="SetUp" is-config="true" duration-ms="12513" started-at="2019-01-06T07:48:18Z" finished-at="2019-01-06T07:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Test3()[pri:4, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="Test3" duration-ms="0" started-at="2019-01-06T07:48:31Z" finished-at="2019-01-06T07:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavenjenkins.MavenjenkinsProg@246ae04d]" name="tearDown" is-config="true" duration-ms="899" started-at="2019-01-06T07:48:31Z" finished-at="2019-01-06T07:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mavenjenkins.MavenjenkinsProg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
